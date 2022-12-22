@@ -28,7 +28,7 @@ public class AuthTests : TestBase
         
         ApplicationManager.Auth.Logout();
         
-        var user = new AccountData("kakisazhab@gmail.com", "M21021uffin");
+        var user = new AccountData("yijgf@gmail.com", "wphjkhg");
         ApplicationManager.Auth.Login(user);
     
         Assert.False(ApplicationManager.Auth.IsDropDownMenuExists());
